@@ -1,0 +1,1 @@
+通过 ISystemQueryService 接口提供 系统信息配置的查询和获取，可以表或配置文件来实现

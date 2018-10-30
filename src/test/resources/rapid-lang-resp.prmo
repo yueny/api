@@ -1,0 +1,9 @@
+ns=FX.app
+ns.lang=namespace.lang=6&$
+
+# 是否开启掩码设置， on/off
+mask.to.string.enable.key=mask.to.string.enable
+# 默认打马赛克的email字段， 逗号 , 分隔. 如 email, EMAIL, mail
+mask.email.fields.key=mask.email.fields
+# 默认打马赛克的字段， 逗号 , 分隔. 如 cardNo, bankCard, bankCardNo
+mask.fields.key=mask.fields
