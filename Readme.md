@@ -11,8 +11,8 @@ API
    ```
    <dependency>
         <groupId>com.yueny</groupId>
-   	    <artifactId>api</artifactId>
-   	    <version>1.0.1-RELEASE</version>
+        <artifactId>api</artifactId>
+        <version>1.0.1-RELEASE</version>
    </dependency>
    ```
    
