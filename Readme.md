@@ -22,7 +22,7 @@ API
    * com.google.guava#guava
 
 # Features
-* **things**
+* **基础pojo对象抽离对象AbstractBo, QueryCondition抽离至 resp中**
 
 
 版本发布历史
