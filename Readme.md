@@ -10,7 +10,7 @@ API
 * **Maven依赖管理**
    ```
    <dependency>
-        <groupId>com.yueny.rapid</groupId>
+        <groupId>com.yueny</groupId>
    	    <artifactId>api</artifactId>
    	    <version>1.0.1-RELEASE</version>
    </dependency>
