@@ -1,4 +1,4 @@
-API
+# API
 ================
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <a href="">
@@ -6,7 +6,7 @@ API
 </a>
 
 
-基础数据源定义
+# 基础数据源定义
 * **Maven依赖管理**
    ```
    <dependency>
@@ -25,7 +25,10 @@ API
 * **基础pojo对象抽离对象AbstractBo, QueryCondition抽离至 resp中**
 
 
-版本发布历史
+# 版本发布历史
 ================
 1.0.1-SNAPSHOT/RELEASE
 所有的非数据实体， 实现 IBo;
+
+# 同步历史
+20190703 同步完成
