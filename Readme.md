@@ -27,8 +27,11 @@
 
 # 版本发布历史
 ================
-1.0.1-SNAPSHOT/RELEASE
-所有的非数据实体， 实现 IBo;
+## 1.0.1-SNAPSHOT/RELEASE
+* 所有的非数据实体， 实现 IBo;
+## 1.1.0-SNAPSHOT
+* parent 依赖升级为yueny-parent#1.1.6-RELEASE
+
 
 # 同步历史
 20190703 1.0.1-RELEASE 同步完成
