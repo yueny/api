@@ -29,8 +29,8 @@
 ================
 ## 1.0.1-SNAPSHOT/RELEASE
 * 所有的非数据实体， 实现 IBo;
-## 1.1.0-SNAPSHOT
-* parent 依赖升级为yueny-parent#1.1.6-RELEASE
+## 1.1.0-SNAPSHOT/RELEASE
+* parent 依赖升级为yueny-parent#1.2.0-RELEASE
 
 
 # 同步历史
