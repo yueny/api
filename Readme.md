@@ -1,5 +1,6 @@
 # API
 ================
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <a href="">
   <img alt="Coverity Scan Build Status" src="https://img.shields.io/coverity/scan/8244.svg"/>
@@ -12,7 +13,7 @@
    <dependency>
         <groupId>com.yueny</groupId>
         <artifactId>api</artifactId>
-        <version>1.0.1-RELEASE</version>
+	    <version>1.2.0-SNAPSHOT</version>
    </dependency>
    ```
    
@@ -27,11 +28,11 @@
 
 # 版本发布历史
 ================
-## 1.0.1-SNAPSHOT/RELEASE
+## 1.0.1-SNAPSHOT/RELEASE   <groupId>com.yueny</groupId>
 * 所有的非数据实体， 实现 IBo;
-## 1.1.0-SNAPSHOT/RELEASE
+
+## 1.1.0-SNAPSHOT/RELEASE   <groupId>com.yueny</groupId>
 * parent 依赖升级为yueny-parent#1.2.0-RELEASE
 
-
-# 同步历史
-20190703 1.0.1-RELEASE 同步完成
+## 1.2.0-SNAPSHOT/RELEASE   <groupId>com.whosly</groupId>
+* parent 依赖升级为com.whosly#yueny-parent#1.3.0-RELEASE， 并只发布中央仓库。
