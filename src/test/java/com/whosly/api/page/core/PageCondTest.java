@@ -1,4 +1,4 @@
-package com.yueny.superclub.api.page.core;
+package com.whosly.api.page.core;
 
 import org.junit.Test;
 

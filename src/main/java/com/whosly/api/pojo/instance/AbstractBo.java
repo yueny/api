@@ -1,11 +1,11 @@
-package com.yueny.superclub.api.pojo.instance;
+package com.whosly.api.pojo.instance;
 
 import java.io.Serializable;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
-import com.yueny.superclub.api.pojo.IBo;
+import com.whosly.api.pojo.IBo;
 
 /**
  * 抽象bo<br>

@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.yueny.superclub.api.page;
+package com.whosly.api.page;
 
 import org.junit.Test;
 

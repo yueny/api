@@ -1,8 +1,8 @@
-package com.yueny.superclub.api.pojo.instance;
+package com.whosly.api.pojo.instance;
 
 import java.io.Serializable;
 
-import com.yueny.superclub.api.pojo.ICondition;
+import com.whosly.api.pojo.ICondition;
 
 /**
  * 查询条件
