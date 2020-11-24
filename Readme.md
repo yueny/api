@@ -1,7 +1,7 @@
 # API
-================
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 <a href="">
   <img alt="Coverity Scan Build Status" src="https://img.shields.io/coverity/scan/8244.svg"/>
 </a>
@@ -11,9 +11,9 @@
 * **Maven依赖管理**
    ```
    <dependency>
-        <groupId>com.yueny</groupId>
+        <groupId>com.whosly</groupId>
         <artifactId>api</artifactId>
-	    <version>1.2.0-SNAPSHOT</version>
+	    <version>version</version>
    </dependency>
    ```
    
