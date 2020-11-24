@@ -1,7 +1,7 @@
-package com.yueny.superclub.api.page.memory;
+package com.whosly.api.page.memory;
 
-import com.yueny.superclub.api.page.IPageable;
-import com.yueny.superclub.api.pojo.IBo;
+import com.whosly.api.page.IPageable;
+import com.whosly.api.pojo.IBo;
 
 /**
  * 内存分页接口或注解

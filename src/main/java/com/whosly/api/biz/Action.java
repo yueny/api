@@ -1,4 +1,4 @@
-package com.yueny.superclub.api.biz;
+package com.whosly.api.biz;
 
 /**
  * @category tags

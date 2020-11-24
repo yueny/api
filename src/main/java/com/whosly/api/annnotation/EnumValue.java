@@ -1,4 +1,4 @@
-package com.yueny.superclub.api.annnotation;
+package com.whosly.api.annnotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

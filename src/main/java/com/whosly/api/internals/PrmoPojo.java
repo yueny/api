@@ -1,12 +1,13 @@
 /**
  * 
  */
-package com.yueny.superclub.api.internals;
+package com.whosly.api.internals;
 
 import com.google.common.collect.MapMaker;
 import lombok.ToString;
 
 import java.util.concurrent.ConcurrentMap;
+
 
 /**
  * @author yueny09 <yueny09@163.com>

@@ -1,9 +1,8 @@
-package com.yueny.superclub.api.page.core;
+package com.whosly.api.page.core;
 
 import java.util.Arrays;
 
-import com.yueny.superclub.api.page.IPageable;
-
+import com.whosly.api.page.IPageable;
 import lombok.Getter;
 
 /**

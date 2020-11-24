@@ -1,9 +1,9 @@
 /**
  *
  */
-package com.yueny.superclub.api.enums;
+package com.whosly.api.enums;
 
-import com.yueny.superclub.api.enums.core.IEnumType;
+import com.whosly.api.enums.core.IEnumType;
 
 /**
  * 结果标识<br>

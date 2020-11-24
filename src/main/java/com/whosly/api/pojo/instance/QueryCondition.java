@@ -1,8 +1,8 @@
 package com.whosly.api.pojo.instance;
 
-import java.io.Serializable;
-
 import com.whosly.api.pojo.ICondition;
+
+import java.io.Serializable;
 
 /**
  * 查询条件

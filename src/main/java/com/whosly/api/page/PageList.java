@@ -1,12 +1,12 @@
-package com.yueny.superclub.api.page;
+package com.whosly.api.page;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import com.yueny.superclub.api.page.core.PageCond;
-import com.yueny.superclub.api.pojo.instance.AbstractBo;
+import com.whosly.api.page.core.PageCond;
+import com.whosly.api.pojo.instance.AbstractBo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

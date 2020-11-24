@@ -1,5 +1,4 @@
-package com.yueny.superclub.api.pojo;
-
+package com.whosly.api.pojo;
 
 /**
  * 条件查询的顶级接口
@@ -9,6 +8,6 @@ package com.yueny.superclub.api.pojo;
  * @DATE 2015年12月17日 下午1:24:19
  *
  */
-public abstract interface ICondition extends IBo {
-	// .
+public interface ICondition extends IBo {
+	// . 
 }

@@ -2,7 +2,7 @@
  * 指定action的类型
  */
 //指定action的类型
-package com.yueny.superclub.api.annnotation.action;
+package com.whosly.api.annnotation.action;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

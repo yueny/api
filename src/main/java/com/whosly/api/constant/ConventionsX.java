@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.yueny.superclub.api.constant;
+package com.whosly.api.constant;
 
 /**
  * 常量配置类，主要是一些惯例的KEY

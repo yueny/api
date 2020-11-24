@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.yueny.superclub.api.internals;
+package com.whosly.api.internals;
 
 /**
  * @author yueny09 <yueny09@163.com>

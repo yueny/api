@@ -1,4 +1,4 @@
-package com.yueny.superclub.api.biz;
+package com.whosly.api.biz;
 
 /**
  * 业务逻辑层操作的顶级接口

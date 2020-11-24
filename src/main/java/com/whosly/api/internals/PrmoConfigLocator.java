@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.yueny.superclub.api.internals;
+package com.whosly.api.internals;
 
 import java.io.InputStream;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.yueny.superclub.api.constant;
+package com.whosly.api.constant;
 
 /**
  * 基本常量定义

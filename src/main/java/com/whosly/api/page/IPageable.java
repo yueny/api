@@ -1,8 +1,8 @@
-package com.yueny.superclub.api.page;
+package com.whosly.api.page;
+
+import com.whosly.api.pojo.IBo;
 
 import java.io.Serializable;
-
-import com.yueny.superclub.api.pojo.IBo;
 
 /**
  * 分页对象的父类接口

@@ -1,4 +1,4 @@
-package com.yueny.superclub.api.enums.core;
+package com.whosly.api.enums.core;
 
 /**
  * 枚举统一接口<br>
