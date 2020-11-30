@@ -9,13 +9,16 @@
 
 # 基础数据源定义
 * **Maven依赖管理**
-   ```
-   <dependency>
-        <groupId>com.whosly</groupId>
-        <artifactId>api</artifactId>
-	    <version>version</version>
-   </dependency>
-   ```
+```
+<dependency>
+    <groupId>com.whosly</groupId>
+    <artifactId>api</artifactId>
+    <version>version</version>
+</dependency>
+```
+
+项目已上传Maven中央仓库。
+> https://search.maven.org/search?q=whosly
    
 * **依赖传递**
    * org.projectlombok#lombok
