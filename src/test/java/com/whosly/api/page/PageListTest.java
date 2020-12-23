@@ -3,6 +3,7 @@
  */
 package com.whosly.api.page;
 
+import com.whosly.api.page.core.PageCond;
 import org.junit.Test;
 
 /**
@@ -17,7 +18,11 @@ public class PageListTest {
 		final PageList<String> pages = new PageList<String>();
 		System.out.println(pages);
 
-		final PageList<String> pages1 = PageList.<String> builder().build();
+		pages.getPaginator().setItems(500L);
+		System.out.println(pages);
+
+		final PageList<String> pages1 = PageList.<String> builder()
+				.paginator(new PageCond()).build();
 		System.out.println(pages1);
 	}
 

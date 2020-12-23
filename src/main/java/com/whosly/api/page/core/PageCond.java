@@ -15,6 +15,8 @@ import lombok.Getter;
  * @author 袁洋 2014年8月4日
  */
 public class PageCond implements IPageable {
+	private static final long serialVersionUID = 3688506614705500726L;
+
 	/**
 	 * 每页项数
 	 */
@@ -23,11 +25,11 @@ public class PageCond implements IPageable {
 	 * 滑动窗口默认的大小(7)。
 	 */
 	public static final int DEFAULT_SLIDER_SIZE = 7;
+
 	/**
 	 * 默认当前页起始位置.mysql中缺省为"1"
 	 */
 	private static final int DEFAULT_START = 1;
-	private static final long serialVersionUID = 3688506614705500726L;
 
 	/**
 	 * 表示总项数未知(<code>Integer.MAX_VALUE</code>)。
@@ -40,7 +42,10 @@ public class PageCond implements IPageable {
 	 */
 	@Getter
 	private int currentPage;
-	/** 表示查询分页结果的总条数。总共项数.缺省统计。-1代表未知。 */
+	/**
+	 * 表示查询分页结果的总条数。总共项数.
+	 * 缺省统计。-1代表未知。
+	 */
 	@Getter
 	private Long items = UNKNOWN_ITEMS;
 	/** limit,表示每页显示数据的条数,每页项数。缺省为“10”。 */
@@ -177,11 +182,20 @@ public class PageCond implements IPageable {
 	}
 
 	/**
+	 * @return 前一页
+	 */
+	@Override
+	public Integer getPrePage(){
+		return calcPage(currentPage - 1);
+	}
+
+	/**
 	 * 取得下一页页码。
 	 *
 	 * @return 下一页页码
 	 */
-	public int getNextPage() {
+	@Override
+	public Integer getNextPage() {
 		return calcPage(currentPage + 1);
 	}
 

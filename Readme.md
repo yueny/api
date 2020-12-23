@@ -39,3 +39,11 @@
 
 ## 1.2.0-SNAPSHOT/RELEASE   <groupId>com.whosly</groupId>
 * parent 依赖升级为com.whosly#yueny-parent#1.3.0-RELEASE， 并只发布中央仓库。
+
+## 1.3.0-SNAPSHOT/RELEASE   <groupId>com.whosly</groupId>
+* IPageable 增加新返回元素：
+
+    // 前一页 Integer getPrePage()
+    // 下一页 Integer getNextPage();
+
+* 

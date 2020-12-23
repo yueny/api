@@ -25,6 +25,16 @@ public interface IPageable extends IBo, Serializable, Cloneable {
 	int getCurrentPage();
 
 	/**
+	 * @return 前一页
+	 */
+	Integer getPrePage();
+
+	/**
+	 * @return 下一页
+	 */
+	Integer getNextPage();
+
+	/**
 	 * @return 结束查询的数值
 	 */
 	Long getEndIndex();
@@ -57,7 +67,7 @@ public interface IPageable extends IBo, Serializable, Cloneable {
 	boolean hasNextPage();
 
 	/**
-	 * 是否有上一页 Returns if there is a previous page.
+	 * 是否有前一页 Returns if there is a previous page.
 	 *
 	 * @return if there is a previous page
 	 */
