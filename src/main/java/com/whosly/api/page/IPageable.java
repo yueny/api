@@ -12,32 +12,11 @@ import java.io.Serializable;
  * @category tag
  */
 public interface IPageable extends IBo, Serializable, Cloneable {
-	/**
-	 * 取得当前页显示的项的起始序号(currentPage-1) * pageSize。
-	 *
-	 * @return 起始序号,表示当前页中的数据在结果集中的起始位置,从0开始。
-	 */
-	int getBeginIndex();
 
 	/**
 	 * @return 当前页码。缺省为"1"。
 	 */
 	int getCurrentPage();
-
-	/**
-	 * @return 前一页
-	 */
-	Integer getPrePage();
-
-	/**
-	 * @return 下一页
-	 */
-	Integer getNextPage();
-
-	/**
-	 * @return 结束查询的数值
-	 */
-	Long getEndIndex();
 
 	/**
 	 * 表示查询分页结果的总条数。总共项数。缺省统计<br>
@@ -58,44 +37,6 @@ public interface IPageable extends IBo, Serializable, Cloneable {
 	 * @return 每页显示数据的条数,每页项数。缺省为“10”。
 	 */
 	int getPageSize();
-
-	/**
-	 * 是否有下一页, Returns if there is a next page.
-	 *
-	 * @return if there is a next page
-	 */
-	boolean hasNextPage();
-
-	/**
-	 * 是否有前一页 Returns if there is a previous page.
-	 *
-	 * @return if there is a previous page
-	 */
-	boolean hasPreviousPage();
-
-	/**
-	 * 判断指定页码是否被禁止，也就是说指定页码超出了范围或等于当前页码。
-	 *
-	 * @param page
-	 *            页码
-	 *
-	 * @return boolean 是否为禁止的页码
-	 */
-	public boolean isDisabledPage(final int page);
-
-	/**
-	 * 是否为首页
-	 *
-	 * @return Returns whether the current page is the first one.
-	 */
-	boolean isFirstPage();
-
-	/**
-	 * 是否为尾页
-	 *
-	 * @return Returns whether the current page is the last one.
-	 */
-	boolean isLastPage();
 
 	/**
 	 * 设置并取得当前页。实际的当前页值被确保在正确的范围内。
@@ -128,5 +69,65 @@ public interface IPageable extends IBo, Serializable, Cloneable {
 	 * @return 设置后的每页项数
 	 */
 	int setPageSize(final int pageSize);
+
+	/**
+	 * 取得当前页显示的项的起始序号(currentPage-1) * pageSize。
+	 *
+	 * @return 起始序号,表示当前页中的数据在结果集中的起始位置,从0开始。
+	 */
+	int getBeginIndex();
+
+	/**
+	 * @return 结束查询的数值
+	 */
+	Long getEndIndex();
+
+	/**
+	 * @return 前一页
+	 */
+	Integer getPrePageNo();
+
+	/**
+	 * 是否有前一页 Returns if there is a previous page.
+	 *
+	 * @return if there is a previous page
+	 */
+	boolean hasPreviousPage();
+
+	/**
+	 * @return 下一页
+	 */
+	Integer getNextPageNo();
+
+	/**
+	 * 是否有下一页, Returns if there is a next page.
+	 *
+	 * @return if there is a next page
+	 */
+	boolean hasNextPage();
+
+	/**
+	 * 判断指定页码是否被禁止，也就是说指定页码超出了范围或等于当前页码。
+	 *
+	 * @param page
+	 *            页码
+	 *
+	 * @return boolean 是否为禁止的页码
+	 */
+	public boolean isDisabledPage(final int page);
+
+	/**
+	 * 是否为首页
+	 *
+	 * @return Returns whether the current page is the first one.
+	 */
+	boolean isFirstPage();
+
+	/**
+	 * 是否为尾页
+	 *
+	 * @return Returns whether the current page is the last one.
+	 */
+	boolean isLastPage();
 
 }

@@ -43,7 +43,7 @@
 ## 1.3.0-SNAPSHOT/RELEASE   <groupId>com.whosly</groupId>
 * IPageable 增加新返回元素：
 
-    // 前一页 Integer getPrePage()
-    // 下一页 Integer getNextPage();
+    // 前一页 Integer getPrePageNo()
+    // 下一页 Integer getNextPageNo();
 
 * 

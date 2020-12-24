@@ -181,12 +181,9 @@ public class PageCond implements IPageable {
 		return calcPage(getPages());
 	}
 
-	/**
-	 * @return 前一页
-	 */
 	@Override
-	public Integer getPrePage(){
-		return calcPage(currentPage - 1);
+	public int getPages() {
+		return (int) Math.ceil((double) items / pageSize);
 	}
 
 	/**
@@ -195,8 +192,8 @@ public class PageCond implements IPageable {
 	 * @return 下一页页码
 	 */
 	@Override
-	public Integer getNextPage() {
-		return calcPage(currentPage + 1);
+	public Integer getNextPageNo() {
+		return getNextPageNo(1);
 	}
 
 	/**
@@ -207,22 +204,16 @@ public class PageCond implements IPageable {
 	 *
 	 * @return 后n页页码
 	 */
-	public int getNextPage(final int n) {
+	public int getNextPageNo(final int n) {
 		return calcPage(currentPage + n);
 	}
 
-	@Override
-	public int getPages() {
-		return (int) Math.ceil((double) items / pageSize);
-	}
-
 	/**
-	 * 取得前一页页码。
-	 *
-	 * @return 前一页页码
+	 * @return 前一页
 	 */
-	public int getPreviousPage() {
-		return calcPage(currentPage - 1);
+	@Override
+	public Integer getPrePageNo(){
+		return getPrePageNo(1);
 	}
 
 	/**
@@ -233,7 +224,7 @@ public class PageCond implements IPageable {
 	 *
 	 * @return 前n页页码
 	 */
-	public int getPreviousPage(final int n) {
+	public int getPrePageNo(final int n) {
 		return calcPage(currentPage - n);
 	}
 
@@ -356,8 +347,8 @@ public class PageCond implements IPageable {
 		return "PageCond [currentPage=" + currentPage + ", items=" + items + ", pageSize=" + pageSize
 				+ ", getBeginIndex()=" + getBeginIndex() + ", getCurrentPage()=" + getCurrentPage() + ", getEndIndex()="
 				+ getEndIndex() + ", getBeginPage()=" + getBeginPage() + ", getItems()=" + getItems()
-				+ ", getEndPage()=" + getEndPage() + ", getNextPage()=" + getNextPage() + ", getPages()=" + getPages()
-				+ ", getPageSize()=" + getPageSize() + ", getPreviousPage()=" + getPreviousPage() + ", getSlider()="
+				+ ", getEndPage()=" + getEndPage() + ", getNextPageNo()=" + getNextPageNo() + ", getPages()=" + getPages()
+				+ ", getPageSize()=" + getPageSize() + ", getPrePageNo()=" + getPrePageNo() + ", getSlider()="
 				+ Arrays.toString(getSlider()) + ", hasNextPage()=" + hasNextPage() + ", hasPreviousPage()="
 				+ hasPreviousPage() + ", isFirstPage()=" + isFirstPage() + ", isLastPage()=" + isLastPage() + "]";
 	}
