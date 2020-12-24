@@ -281,7 +281,7 @@ public class PageCond implements IPageable {
 	 * @see com.yueny.codelets.api.condition.page.IPageable#hasNextPage()
 	 */
 	@Override
-	public boolean hasNextPage() {
+	public boolean isHasNextPage() {
 		// 当前页码是否小于总页数(大于等于都认为没有下一页)
 		return getCurrentPage() < getPages();
 	}
@@ -292,7 +292,7 @@ public class PageCond implements IPageable {
 	 * @see com.yueny.codelets.api.condition.page.IPageable#hasPreviousPage()
 	 */
 	@Override
-	public boolean hasPreviousPage() {
+	public boolean isHasPreviousPage() {
 		// 当前页码是否为第一页(首页)
 		return getCurrentPage() > 1;
 	}
@@ -309,12 +309,12 @@ public class PageCond implements IPageable {
 	 */
 	@Override
 	public boolean isFirstPage() {
-		return !hasPreviousPage();
+		return !isHasPreviousPage();
 	}
 
 	@Override
 	public boolean isLastPage() {
-		return !hasNextPage();
+		return !isHasNextPage();
 	}
 
 	@Override
@@ -349,8 +349,8 @@ public class PageCond implements IPageable {
 				+ getEndIndex() + ", getBeginPage()=" + getBeginPage() + ", getItems()=" + getItems()
 				+ ", getEndPage()=" + getEndPage() + ", getNextPageNo()=" + getNextPageNo() + ", getPages()=" + getPages()
 				+ ", getPageSize()=" + getPageSize() + ", getPrePageNo()=" + getPrePageNo() + ", getSlider()="
-				+ Arrays.toString(getSlider()) + ", hasNextPage()=" + hasNextPage() + ", hasPreviousPage()="
-				+ hasPreviousPage() + ", isFirstPage()=" + isFirstPage() + ", isLastPage()=" + isLastPage() + "]";
+				+ Arrays.toString(getSlider()) + ", hasNextPage()=" + isHasNextPage() + ", hasPreviousPage()="
+				+ isHasPreviousPage() + ", isFirstPage()=" + isFirstPage() + ", isLastPage()=" + isLastPage() + "]";
 	}
 
 }

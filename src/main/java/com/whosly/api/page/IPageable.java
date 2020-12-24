@@ -92,7 +92,7 @@ public interface IPageable extends IBo, Serializable, Cloneable {
 	 *
 	 * @return if there is a previous page
 	 */
-	boolean hasPreviousPage();
+	boolean isHasPreviousPage();
 
 	/**
 	 * @return 下一页
@@ -104,7 +104,7 @@ public interface IPageable extends IBo, Serializable, Cloneable {
 	 *
 	 * @return if there is a next page
 	 */
-	boolean hasNextPage();
+	boolean isHasNextPage();
 
 	/**
 	 * 判断指定页码是否被禁止，也就是说指定页码超出了范围或等于当前页码。
