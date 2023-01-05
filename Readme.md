@@ -6,6 +6,7 @@
   <img alt="Coverity Scan Build Status" src="https://img.shields.io/coverity/scan/8244.svg"/>
 </a>
 
+已迁移至gitee：https://gitee.com/whosly/api
 
 # 基础数据源定义
 * **Maven依赖管理**
